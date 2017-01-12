@@ -1,0 +1,11 @@
+<view>
+    hello {{textStr}}
+</view>
+
+<button bindtap="changeName">
+    changeName btn!
+</button>
+
+<view wx:for = "{{array}}">
+    {{index}}: {{item}}
+</view>

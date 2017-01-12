@@ -1,0 +1,49 @@
+{
+  "pages":[
+    "pages/index/index",
+    "pages/logs/logs",
+    "pages/message/message",
+    "pages/search/search",
+    "pages/me/me",
+    "pages/language/language",
+    "pages/details/details"
+  ],
+  "window":{
+    "backgroundTextStyle":"light",
+    "navigationBarBackgroundColor": "#3785C3",
+    "navigationBarTitleText": "Github",
+    "navigationBarTextStyle":"white"
+  },
+  "tabBar": {
+    "color": "#888888",
+    "selectedColor": "#000000",
+    "borderStyle": "white",
+    "backgroundColor": "#DCDADC",
+    "list": [{
+      "pagePath": "pages/index/index",
+      "text": "Repositories",
+      "iconPath": "image/tabbar_home.png",
+      "selectedIconPath": "image/tabbar_home_selected.png"
+    }, {
+      "pagePath": "pages/message/message",
+      "text": "消息",
+      "iconPath": "image/tabbar_message_center.png",
+      "selectedIconPath": "image/tabbar_message_center_selected.png"
+    }, {
+      "pagePath": "pages/search/search",
+      "text": "发现",
+      "iconPath": "image/tabbar_discover.png",
+      "selectedIconPath": "image/tabbar_discover_selected.png"
+    }, {
+      "pagePath": "pages/me/me",
+      "text": "我",
+      "iconPath": "image/tabbar_profile.png",
+      "selectedIconPath": "image/tabbar_profile_selected.png"
+    }]
+  },
+  "networkTimeout": {
+    "request": 10000,
+    "downloadFile": 10000
+  },
+  "debug": false
+}

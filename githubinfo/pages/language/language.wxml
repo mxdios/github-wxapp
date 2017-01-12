@@ -1,0 +1,7 @@
+<view>
+    <block wx:for = "{{languages}}">
+        <view class = "languagescellwxss" bindtap = "languageclick" data-hi = "{{item}}">
+            <text class = "languagetextwxss">{{item}}</text>
+        </view>
+    </block>
+</view>

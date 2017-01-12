@@ -1,0 +1,80 @@
+/**index.wxss**/
+page {
+  background-color: #fbf9fe;
+}
+.body {
+  height: 100%;
+  width: 100%;
+}
+
+.cellwxss {
+  background-color: #ffffff;
+  height: auto;
+  width: 100%;
+  overflow: auto;
+  margin-bottom: 10px;
+  text-align: left;
+}
+.viewwxss {
+  float: left;
+  width: 100%;
+}
+.starwxss {
+  float: right;
+  text-align: right;
+  margin-right: 10px;
+  margin-top: 10px;
+  color: #989898;
+  font-size: 15px;
+}
+.ownerwxss {
+  float: left;
+  text-align: left;
+  margin-right: 10px;
+  margin-top: 20px;
+  color: #989898;
+  font-size: 15px;
+}
+.descriptionwxss {
+  float: left;
+  text-align: left;
+  margin-right: 10px;
+  margin-top: 10px;
+  margin-left: 50px;
+  margin-bottom: 10px;
+  color: #000000;
+  font-size: 15px;
+}
+.titlewxss {
+  float: left;
+  color: #3785C3;
+  height: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 18px;
+}
+.imagewxss {
+  float: left;
+  width: 30px;
+  height: 30px;
+  margin-left: 10px;
+  margin-top: 10px;
+  margin-right: 10px;
+}
+.headerviewwxss {
+  height: 40px;
+  widows: 100%;
+  background-color: #D0D0D0;
+  /*position: fixed;*/
+}
+.headertextwxss {
+  float: left;
+  width: 100%;
+  height: 40px;
+  margin-top: 10px;
+  text-align: center;
+}
+
+.indexbg {
+  background-color: #ffffff;
+}

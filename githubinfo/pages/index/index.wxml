@@ -8,10 +8,10 @@
         <view class = "cellwxss">
             <view class = "viewwxss">
                 <text class = "titlewxss"  bindtap = "languageviewclick" data-hi = "{{item}}">{{index + 1}}. {{item.name}}</text>
-                <text class = "starwxss"  bindtap = "languageviewclick" data-hi = "{{item}}">Star:{{item.stargazers_count}}</text>
+                <text class = "starwxss"  bindtap = "languageviewclick" data-hi = "{{item}}">Star: {{item.stargazers_count}}</text>
             </view>
             <view class = "viewwxss">
-                <image src="{{item.owner.avatar_url}}" class = "imagewxss"  bindtap = "languageviewclick" data-hi = "{{item}}"></image>
+                <image src="{{item.owner.avatar_url}}" class = "imagewxss" bindtap = "languageviewclick" data-hi = "{{item}}"></image>
                 <text class = "ownerwxss"  bindtap = "languageviewclick" data-hi = "{{item}}">Owner: {{item.owner.login}}</text>
             </view>
             <view class = "viewwxss">

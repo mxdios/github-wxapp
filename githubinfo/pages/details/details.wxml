@@ -1,3 +1,20 @@
-<view>
-    <text>{{title}}</text>
+<view class = "body">
+    <loading hidden = "{{hiddenLoading}}">加载中...</loading>
+    <text class = "titlewxss">{{title}}</text>
+    <image src="{{imgurl}}" class = "imagewxss"></image>
+    <text class = "descripwxss">{{description}}</text>
+
+    <view class = "linewxss"></view>
+
+    <view wx:for = "{{btns}}" id = "{{index}}" data-hi = "{{item.url}}" class = "btnswxss {{index == selectId ? 'btnsselectwxss' : ''}}" bindtap = "btnclick">{{item.name}}</view>
+
+    <block wx:for = "{{listDataArray}}">
+        <view class = "usercellwxss">
+            <text class = "usernamewxss">{{index + 1}}</text>
+            <image src="{{item.avatar_url}}" class = "userimgwxss"></image>
+            <text class = "usernamewxss">{{item.login}}</text>
+            <view class = "userlinewxss"></view>
+        </view>
+    </block>
+
 </view>

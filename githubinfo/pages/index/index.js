@@ -14,13 +14,12 @@ Page({
     })
   },
   languageviewclick: function(event) {
-    console.log(event),
+    console.log(event.target.dataset.hi),
     wx.setStorage({
       key: 'languagecInfoKey',
       data: event.target.dataset.hi,
       success: function(res){
         console.log('保存成功')
-        
       }
     }),
     wx.navigateTo({

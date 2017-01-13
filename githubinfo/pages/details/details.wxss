@@ -1,0 +1,74 @@
+page {
+  background-color: #ffffff;
+}
+.body {
+  height: 100%;
+  width: 100%;
+}
+
+.titlewxss {
+  float: left;
+  color: #3785C3;
+  height: 20px;
+  margin-top: 10px;
+  margin-left: 10px;
+  font-size: 25px;
+}
+
+.imagewxss {
+    width: 100%;
+    margin-top: 10px;
+}
+.descripwxss {
+    font-size: 18px;
+    float: left;
+    margin-left: 10px;
+    margin-right: 10px;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    color: #B0B0B0;
+}
+.linewxss {
+    overflow: auto;
+    margin-top: 10px;
+    margin-bottom: 10px;
+    background-color: #D0D0D0;
+    height: 1px;
+    width: 100%;
+}
+.btnswxss {
+  float: left;
+  width: 50%;
+  text-align: center;
+  color: #000000;
+  margin-bottom: 30px;
+}
+.btnsselectwxss {
+  color: #3785C3;
+}
+.userimgwxss {
+  float: left;
+  width: 50px;
+  height: 50px;
+  margin-left: 10px;
+  margin-top: 10px; 
+  margin-bottom: 10px;
+}
+.usernamewxss {
+  float: left;
+  color: #3785C3;
+  margin-left: 20px;
+  font-size: 18px;
+  height: auto;
+  margin-right: 20px;
+  margin-top: 30px;
+}
+.usercellwxss {
+  overflow: auto;
+  width: 100%;
+}
+.userlinewxss {
+  background-color: #D0D0D0;
+  height: 1px;
+  width: 100%;
+}

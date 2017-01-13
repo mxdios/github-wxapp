@@ -1,25 +1,23 @@
 <!--index.wxml-->
-<view>
-    <view class = "body">
-        <view class = "headerviewwxss" bindtap = "headerviewclick">
-            <text class = "headertextwxss">{{headertext}}</text>
-        </view>
-        <loading hidden = "{{hiddenLoading}}">加载中...</loading>
-        <block wx:for = "{{listDataArray}}">   
-            <view class = "cellwxss" bindtap = "languageviewclick" data-hi = "1">
-                <view class = "viewwxss">
-                    <text class = "titlewxss">{{index + 1}}. {{item.name}}</text>
-                    <text class = "starwxss">Star:{{item.stargazers_count}}</text>
-                </view>
-                <view class = "viewwxss">
-                    <image src="{{item.owner.avatar_url}}" class = "imagewxss"></image>
-                    <text class = "ownerwxss">Owner: {{item.owner.login}}</text>
-                </view>
-                <view class = "viewwxss">
-                    <text class = "descriptionwxss">{{item.description}}</text>
-                </view>
-            </view> 
-        </block>
-        
+<view class = "body">
+    <view class = "headerviewwxss" bindtap = "headerviewclick">
+        <text class = "headertextwxss">{{headertext}}</text>
     </view>
+    <loading hidden = "{{hiddenLoading}}">加载中...</loading>
+    <block wx:for = "{{listDataArray}}">   
+        <view class = "cellwxss">
+            <view class = "viewwxss">
+                <text class = "titlewxss"  bindtap = "languageviewclick" data-hi = "{{item}}">{{index + 1}}. {{item.name}}</text>
+                <text class = "starwxss"  bindtap = "languageviewclick" data-hi = "{{item}}">Star:{{item.stargazers_count}}</text>
+            </view>
+            <view class = "viewwxss">
+                <image src="{{item.owner.avatar_url}}" class = "imagewxss"  bindtap = "languageviewclick" data-hi = "{{item}}"></image>
+                <text class = "ownerwxss"  bindtap = "languageviewclick" data-hi = "{{item}}">Owner: {{item.owner.login}}</text>
+            </view>
+            <view class = "viewwxss">
+                <text class = "descriptionwxss"  bindtap = "languageviewclick" data-hi = "{{item}}">{{item.description}}</text>
+            </view>
+        </view> 
+    </block>
+    
 </view>

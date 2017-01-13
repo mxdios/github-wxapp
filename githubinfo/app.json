@@ -25,6 +25,11 @@
       "iconPath": "image/tabbar_home.png",
       "selectedIconPath": "image/tabbar_home_selected.png"
     }, {
+      "pagePath": "pages/me/me",
+      "text": "users",
+      "iconPath": "image/tabbar_profile.png",
+      "selectedIconPath": "image/tabbar_profile_selected.png"
+    }, {
       "pagePath": "pages/message/message",
       "text": "消息",
       "iconPath": "image/tabbar_message_center.png",
@@ -34,11 +39,6 @@
       "text": "发现",
       "iconPath": "image/tabbar_discover.png",
       "selectedIconPath": "image/tabbar_discover_selected.png"
-    }, {
-      "pagePath": "pages/me/me",
-      "text": "我",
-      "iconPath": "image/tabbar_profile.png",
-      "selectedIconPath": "image/tabbar_profile_selected.png"
     }]
   },
   "networkTimeout": {
